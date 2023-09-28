@@ -17,13 +17,6 @@
 <button id="btn" class="btn">Add Another Card</button>
 <button id = "delete">Delete Card</button>
 <button id = "title">Change Title</button>
-<script>
-    document.querySelector('btn').addEventListener('click', function(f){
-      const link =
-      document.querySelector('wrapper');
-    })
-
-  </script>
 </body>
 </html>
 <Style>.card {
