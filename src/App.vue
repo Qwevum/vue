@@ -72,7 +72,7 @@ height: auto;
 margin-right: 0;
 border-radius: 0;
 }
-}
+
 .wrapper{
 
 }
