@@ -73,9 +73,9 @@ border-radius: 0;
 background-color: red;
 }
 </Style>
-<script>const cloneButton = document.getElementById('btn');
+/*<script>const cloneButton = document.getElementById('btn');
 const deleteButton = document.getElementById('delete');
-const titleButton = document.getElementById('title');
+//const titleButton = document.getElementById('title');
 
 
 cloneButton.addEventListener('click', function(){
@@ -88,7 +88,7 @@ deleteButton.addEventListener('click', function(){
 })
 
 
-</script>
+</script>*/
 /*<template>
   <img alt="Vue logo" src="./assets/logo.png">
   <HelloWorld msg="Welcome to Your Vue.js App"/>
