@@ -18,7 +18,7 @@
 <button id = "delete">Delete Card</button>
 <button id = "title">Change Title</button>
 </body>
-</html>
+
 <Style>.card {
 max-width: 400px;
 margin: 16px;
@@ -89,6 +89,13 @@ deleteButton.addEventListener('click', function(){
 
 
 </script>*/
+
+
+
+
+
+
+
 /*<template>
   <img alt="Vue logo" src="./assets/logo.png">
   <HelloWorld msg="Welcome to Your Vue.js App"/>
