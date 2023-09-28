@@ -1,4 +1,102 @@
-<!DOCTYPE html>
+<title>Card Example</title>
+<body>
+<div class = "wrapper">
+	<div class="card">
+		<img src="https://i5.walmartimages.com/seo/Disney-Pixar-Toy-Story-Buzz
+		-Lightyear-Talking-Action-Figure_11123c59-f8b1-4483-bb77-
+		c31a7b2a9b75_1.dd0c2d86b361071a7a810bd23af41f22.jpeg?odn
+		Height=768&odnWidth=768&odnBg=FFFFFF" alt="Card Image" class="card-img">
+		<div class="card-content">
+			<h2 class="card-title">Buzz Lightyear</h2>
+			<p class="card-description">Too infinity and beyond!</p>
+			<a href="#" class="details-button">Details</a>
+
+		</div>
+	</div>
+</div>
+<button id="btn" class="btn">Add Another Card</button>
+<button id = "delete">Delete Card</button>
+<button id = "title">Change Title</button>
+<script>
+    document.querySelector('btn').addEventListener('click', function(f){
+      const link =
+      document.querySelector('wrapper');
+    })
+
+  </script>
+</body>
+</html>
+<Style>.card {
+max-width: 400px;
+margin: 16px;
+padding: 12px;
+border: 2px solid #ccc;
+border-radius: 8px;
+
+}
+
+.card-img {
+width: 150px;
+margin-right: 12px;
+border-radius: 8px;
+}
+
+.card-content {
+flex-grow: 1;
+}
+
+.card-title {
+font-size: 1.5rem;
+margin-bottom: 8px;
+text-align: center
+}
+
+.card-description {
+margin-bottom: 8px 0;
+text-align: center
+}
+
+.details-button {
+display: Details;
+}
+
+@media screen and (min-width: 500px) and (max-width: 800px) {
+.details-button {
+display: inline-block;
+}
+}
+
+.card-img {
+width: 100%;
+height: auto;
+margin-right: 0;
+border-radius: 0;
+}
+}
+.wrapper{
+
+}
+.highlighted{
+background-color: red;
+}
+</Style>
+<script>const cloneButton = document.getElementById('btn');
+const deleteButton = document.getElementById('delete');
+const titleButton = document.getElementById('title');
+
+
+cloneButton.addEventListener('click', function(){
+  const clonedCard = document.querySelector('.card').cloneNode(true);
+  document.body.appendChild(clonedCard);
+});
+
+deleteButton.addEventListener('click', function(){
+
+})
+
+
+</script>
+/*<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -15,3 +113,4 @@
     <!-- built files will be auto injected -->
   </body>
 </html>
+*/
